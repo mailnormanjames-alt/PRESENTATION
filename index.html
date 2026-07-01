@@ -1393,9 +1393,9 @@
       if (!light) return;
       card.addEventListener('mouseenter', () => {
         gsap.set(light, { x: '-40vw', opacity: 0 });
-        gsap.to(light, { opacity: 1, duration: 0.4, ease: 'power2.in' });
-        gsap.to(light, { x: '180vw', duration: 2.5, ease: 'none' });
-        gsap.to(light, { opacity: 0, duration: 0.5, delay: 2 });
+        gsap.to(light, { opacity: 1, duration: 0.8, ease: 'power2.in' });
+        gsap.to(light, { x: '180vw', duration: 5, ease: 'none' });
+        gsap.to(light, { opacity: 0, duration: 0.8, delay: 4.2 });
       });
       card.addEventListener('mouseleave', () => {
         gsap.killTweensOf(light);
