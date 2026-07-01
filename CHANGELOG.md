@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.8 — July 1, 2026
+**File:** `PRESENTATION/master-index.html`
+- Updated all 10 Hair Masters card links from relative paths (`../THE-*`) to live Vercel deployment URLs (`https://hair-masters-nine.vercel.app/THE-*/`).
+
 ## v1.7 — July 1, 2026
 **Files:** All
 - Pushed to GitHub: https://github.com/mailnormanjames-alt/PRESENTATION.git; added .gitignore blocking ZIP files, OS files, and node_modules.
