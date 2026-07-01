@@ -445,6 +445,19 @@
     .world-card:hover .lb-placeholder { filter: brightness(0.95) saturate(1); transform: scale(1.05); }
     .lb-embassy { background: linear-gradient(135deg, #0f3460 0%, #16213e 30%, #e94560 70%, #1a1a2e 100%); }
     .lb-observatory { background: linear-gradient(135deg, #1a1a2e 0%, #30363d 30%, #58a6ff 70%, #0d1117 100%); }
+
+    /* ========== LIGHT PASSING EFFECT ========== */
+    .light {
+      position: absolute; left: -40%; top: -20%;
+      width: 30%; height: 140%;
+      background: linear-gradient(90deg, transparent 0%, rgba(212,196,168,0.25) 40%, rgba(212,196,168,0.4) 50%, rgba(212,196,168,0.25) 60%, transparent 100%);
+      filter: blur(35px);
+      transform: rotate(18deg);
+      mix-blend-mode: screen;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 3;
+    }
   </style>
 </head>
 <body>
@@ -528,8 +541,7 @@
     <div class="world-grid">
 
       <a href="https://hair-masters-nine.vercel.app/THE-ALCHEMIST/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/01-alchemist.jpg" alt="The Alchemist" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/01-alchemist.jpg" alt="The Alchemist" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 01</span>
           <h3 class="world-card-name">The Alchemist</h3>
@@ -539,8 +551,7 @@
       </a>
 
       <a href="https://hair-masters-nine.vercel.app/THE-RUNWAY-ARCHITECT/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/02-runway.jpg" alt="The Runway Architect" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/02-runway.jpg" alt="The Runway Architect" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 02</span>
           <h3 class="world-card-name">The Runway Architect</h3>
@@ -550,8 +561,7 @@
       </a>
 
       <a href="https://hair-masters-nine.vercel.app/THE-BRIDAL-SCULPTOR/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/03-bridal.jpg" alt="The Bridal Sculptor" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/03-bridal.jpg" alt="The Bridal Sculptor" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 03</span>
           <h3 class="world-card-name">The Bridal Sculptor</h3>
@@ -561,8 +571,7 @@
       </a>
 
       <a href="https://hair-masters-nine.vercel.app/THE-COLOR-FUTURIST/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/04-color.jpg" alt="The Color Futurist" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/04-color.jpg" alt="The Color Futurist" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 04</span>
           <h3 class="world-card-name">The Color Futurist</h3>
@@ -572,8 +581,7 @@
       </a>
 
       <a href="https://hair-masters-nine.vercel.app/THE-EDITORIAL-MINIMALIST/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/05-editorial.jpg" alt="The Editorial Minimalist" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/05-editorial.jpg" alt="The Editorial Minimalist" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 05</span>
           <h3 class="world-card-name">The Editorial Minimalist</h3>
@@ -583,8 +591,7 @@
       </a>
 
       <a href="https://hair-masters-nine.vercel.app/THE-TEXTURE-POET/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/06-texture.png" alt="The Texture Poet" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/06-texture.png" alt="The Texture Poet" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 06</span>
           <h3 class="world-card-name">The Texture Poet</h3>
@@ -594,8 +601,7 @@
       </a>
 
       <a href="https://hair-masters-nine.vercel.app/THE-AVANT-GARDE-TRANSFORMER/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/07-avant.png" alt="The Avant-Garde Transformer" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/07-avant.png" alt="The Avant-Garde Transformer" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 07</span>
           <h3 class="world-card-name">The Avant-Garde Transformer</h3>
@@ -605,8 +611,7 @@
       </a>
 
       <a href="https://hair-masters-nine.vercel.app/THE-RED-CARPET-DIRECTOR/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/08-redcarpet.jpg" alt="The Red Carpet Director" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/08-redcarpet.jpg" alt="The Red Carpet Director" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 08</span>
           <h3 class="world-card-name">The Red Carpet Director</h3>
@@ -616,8 +621,7 @@
       </a>
 
       <a href="https://hair-masters-nine.vercel.app/THE-PRECISION-CUTTER/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/09-precision.png" alt="The Precision Cutter" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/09-precision.png" alt="The Precision Cutter" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 09</span>
           <h3 class="world-card-name">The Precision Cutter</h3>
@@ -627,8 +631,7 @@
       </a>
 
       <a href="https://hair-masters-nine.vercel.app/THE-HAIR-RITUALIST/" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/hair/10-ritualist.png" alt="The Hair Ritualist" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/hair/10-ritualist.png" alt="The Hair Ritualist" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 10</span>
           <h3 class="world-card-name">The Hair Ritualist</h3>
@@ -657,8 +660,7 @@
     <div class="world-grid">
 
       <a href="https://the-auction-snowy.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/01-the-auction.png" alt="The Auction" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/01-the-auction.png" alt="The Auction" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 01</span>
           <h3 class="world-card-name">The Auction</h3>
@@ -668,8 +670,7 @@
       </a>
 
       <a href="https://the-ghost-two.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/02-the-ghost.jpg" alt="The Ghost" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/02-the-ghost.jpg" alt="The Ghost" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 02</span>
           <h3 class="world-card-name">The Ghost</h3>
@@ -679,8 +680,7 @@
       </a>
 
       <a href="https://the-maze-iota.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/03-the-maze.jpg" alt="The Maze" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/03-the-maze.jpg" alt="The Maze" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 03</span>
           <h3 class="world-card-name">The Maze</h3>
@@ -690,8 +690,7 @@
       </a>
 
       <a href="https://the-embassy.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/04-the-embassy.jpg" alt="The Embassy" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/04-the-embassy.jpg" alt="The Embassy" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 04</span>
           <h3 class="world-card-name">The Embassy</h3>
@@ -701,8 +700,7 @@
       </a>
 
       <a href="https://the-opera.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/05-the-opera.png" alt="The Opera" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/05-the-opera.png" alt="The Opera" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 05</span>
           <h3 class="world-card-name">The Opera</h3>
@@ -712,8 +710,7 @@
       </a>
 
       <a href="https://the-imperial-express.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/06-imperial-express.png" alt="Imperial Express" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/06-imperial-express.png" alt="Imperial Express" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 06</span>
           <h3 class="world-card-name">Imperial Express</h3>
@@ -723,8 +720,7 @@
       </a>
 
       <a href="https://the-observatory-olive.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/07-the-observatory.png" alt="The Observatory" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/07-the-observatory.png" alt="The Observatory" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 07</span>
           <h3 class="world-card-name">The Observatory</h3>
@@ -734,8 +730,7 @@
       </a>
 
       <a href="https://cabaret-decadence-kappa.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/08-cabaret-decadence.png" alt="Cabaret Decadence" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/08-cabaret-decadence.png" alt="Cabaret Decadence" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 08</span>
           <h3 class="world-card-name">Cabaret Decadence</h3>
@@ -745,8 +740,7 @@
       </a>
 
       <a href="https://elena-marchetti-livid.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/09-elena-marchetti.jpg" alt="Elena Marchetti" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/09-elena-marchetti.jpg" alt="Elena Marchetti" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 09</span>
           <h3 class="world-card-name">Elena Marchetti</h3>
@@ -756,8 +750,7 @@
       </a>
 
       <a href="https://yuki-tanaka-eight.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/lookbook/10-yuki-tanaka.jpg" alt="Yuki Tanaka" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/lookbook/10-yuki-tanaka.jpg" alt="Yuki Tanaka" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 10</span>
           <h3 class="world-card-name">Yuki Tanaka</h3>
@@ -786,8 +779,7 @@
     <div class="world-grid">
 
       <a href="https://01-the-embassy.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_01.jpg" alt="The Embassy" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_01.jpg" alt="The Embassy" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 01</span>
           <h3 class="world-card-name">The Embassy</h3>
@@ -797,8 +789,7 @@
       </a>
 
       <a href="https://02-the-atelier.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_02.jpg" alt="La Equinox" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_02.jpg" alt="La Equinox" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 02</span>
           <h3 class="world-card-name">La Equinox</h3>
@@ -808,8 +799,7 @@
       </a>
 
       <a href="https://03-noir-atelier.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_03.png" alt="Rust & Roast" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_03.png" alt="Rust & Roast" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 03</span>
           <h3 class="world-card-name">Rust &amp; Roast</h3>
@@ -819,8 +809,7 @@
       </a>
 
       <a href="https://04-the-altitude.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_04.png" alt="The Altitude" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_04.png" alt="The Altitude" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 04</span>
           <h3 class="world-card-name">The Altitude</h3>
@@ -830,8 +819,7 @@
       </a>
 
       <a href="https://05-the-atelier-studio.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_05.jpg" alt="The Atelier Studio" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_05.jpg" alt="The Atelier Studio" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 05</span>
           <h3 class="world-card-name">The Atelier Studio</h3>
@@ -841,8 +829,7 @@
       </a>
 
       <a href="https://06-the-garden.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_06.jpg" alt="The Garden" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_06.jpg" alt="The Garden" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 06</span>
           <h3 class="world-card-name">The Garden</h3>
@@ -852,8 +839,7 @@
       </a>
 
       <a href="https://07-the-roast.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_07.jpg" alt="The Roast" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_07.jpg" alt="The Roast" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 07</span>
           <h3 class="world-card-name">The Roast</h3>
@@ -863,8 +849,7 @@
       </a>
 
       <a href="https://08-the-noir.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_08.jpg" alt="The Noir" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_08.jpg" alt="The Noir" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 08</span>
           <h3 class="world-card-name">The Noir</h3>
@@ -874,8 +859,7 @@
       </a>
 
       <a href="https://09-the-oasis.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_09.jpg" alt="The Oasis" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_09.jpg" alt="The Oasis" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 09</span>
           <h3 class="world-card-name">The Oasis</h3>
@@ -885,8 +869,7 @@
       </a>
 
       <a href="https://10-the-observatory.vercel.app" class="world-card" target="_blank">
-        <img class="world-card-img" src="images/cafe/cover_10.jpg" alt="The Observatory" loading="lazy">
-        <div class="world-card-overlay"></div>
+        <img class="world-card-img" src="images/cafe/cover_10.jpg" alt="The Observatory" loading="lazy">`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 10</span>
           <h3 class="world-card-name">The Observatory</h3>
@@ -915,8 +898,7 @@
     <div class="world-grid">
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-1"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-1"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 01</span>
           <h3 class="world-card-name">The Breath Weaver</h3>
@@ -926,8 +908,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-2"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-2"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 02</span>
           <h3 class="world-card-name">The Flow Architect</h3>
@@ -937,8 +918,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-3"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-3"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 03</span>
           <h3 class="world-card-name">The Stillness Guide</h3>
@@ -948,8 +928,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-4"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-4"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 04</span>
           <h3 class="world-card-name">The Sun Saluter</h3>
@@ -959,8 +938,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-5"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-5"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 05</span>
           <h3 class="world-card-name">The Balance Keeper</h3>
@@ -970,8 +948,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-6"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-6"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 06</span>
           <h3 class="world-card-name">The Sound Healer</h3>
@@ -981,8 +958,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-7"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-7"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 07</span>
           <h3 class="world-card-name">The Power Sage</h3>
@@ -992,8 +968,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-8"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-8"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 08</span>
           <h3 class="world-card-name">The Restorer</h3>
@@ -1003,8 +978,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-9"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-9"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 09</span>
           <h3 class="world-card-name">The Chakra Mapper</h3>
@@ -1014,8 +988,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img yoga-10"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img yoga-10"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 10</span>
           <h3 class="world-card-name">The Final Om</h3>
@@ -1044,8 +1017,7 @@
     <div class="world-grid">
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-1"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-1"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 01</span>
           <h3 class="world-card-name">The Flame Sculptor</h3>
@@ -1055,8 +1027,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-2"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-2"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 02</span>
           <h3 class="world-card-name">The Plating Artist</h3>
@@ -1066,8 +1037,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-3"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-3"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 03</span>
           <h3 class="world-card-name">The Sommelier's Table</h3>
@@ -1077,8 +1047,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-4"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-4"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 04</span>
           <h3 class="world-card-name">The Midnight Kitchen</h3>
@@ -1088,8 +1057,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-5"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-5"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 05</span>
           <h3 class="world-card-name">The Garden Table</h3>
@@ -1099,8 +1067,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-6"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-6"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 06</span>
           <h3 class="world-card-name">The Ocean Counter</h3>
@@ -1110,8 +1077,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-7"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-7"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 07</span>
           <h3 class="world-card-name">The Spice Route</h3>
@@ -1121,8 +1087,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-8"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-8"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 08</span>
           <h3 class="world-card-name">The Butcher's Block</h3>
@@ -1132,8 +1097,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-9"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-9"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 09</span>
           <h3 class="world-card-name">The Fermentation Lab</h3>
@@ -1143,8 +1107,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img restaurant-10"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img restaurant-10"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 10</span>
           <h3 class="world-card-name">The Last Course</h3>
@@ -1173,8 +1136,7 @@
     <div class="world-grid">
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-1"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-1"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 01</span>
           <h3 class="world-card-name">The Tarot Architect</h3>
@@ -1184,8 +1146,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-2"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-2"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 02</span>
           <h3 class="world-card-name">The Shadow Weaver</h3>
@@ -1195,8 +1156,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-3"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-3"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 03</span>
           <h3 class="world-card-name">The Ritualist</h3>
@@ -1206,8 +1166,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-4"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-4"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 04</span>
           <h3 class="world-card-name">The Cipher Keeper</h3>
@@ -1217,8 +1176,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-5"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-5"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 05</span>
           <h3 class="world-card-name">The Moon Channel</h3>
@@ -1228,8 +1186,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-6"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-6"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 06</span>
           <h3 class="world-card-name">The Bone Reader</h3>
@@ -1239,8 +1196,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-7"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-7"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 07</span>
           <h3 class="world-card-name">The Sigil Scribe</h3>
@@ -1250,8 +1206,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-8"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-8"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 08</span>
           <h3 class="world-card-name">The Veil Walker</h3>
@@ -1261,8 +1216,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-9"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-9"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 09</span>
           <h3 class="world-card-name">The Enochian Door</h3>
@@ -1272,8 +1226,7 @@
       </a>
 
       <a href="#" class="world-card" target="_blank">
-        <div class="placeholder-img occult-10"></div>
-        <div class="world-card-overlay"></div>
+        <div class="placeholder-img occult-10"></div>`n        <div class="light"></div>`n        <div class="world-card-overlay"></div>
         <div class="world-card-content">
           <span class="world-card-num">World 10</span>
           <h3 class="world-card-name">The Final Rite</h3>
@@ -1433,7 +1386,25 @@
     });
 
     // ==========================================
-    // 7. COLLECTION TAGLINE PARALLAX (depth layers)
+    // 7. LIGHT PASSING EFFECT ON CARDS
+    // ==========================================
+    document.querySelectorAll('.world-card').forEach((card) => {
+      const light = card.querySelector('.light');
+      if (!light) return;
+      ScrollTrigger.create({
+        trigger: card,
+        start: 'top 85%',
+        once: true,
+        onEnter: () => {
+          gsap.to(light, { opacity: 1, duration: 1.2, ease: 'power2.in' });
+          gsap.to(light, { x: '180vw', duration: 7, ease: 'none', delay: 0.2 });
+          gsap.to(light, { opacity: 0, duration: 1, delay: 6 });
+        },
+      });
+    });
+
+    // ==========================================
+    // 8. COLLECTION TAGLINE PARALLAX (depth layers)
     // ==========================================
     document.querySelectorAll('.collection-tagline').forEach((el) => {
       gsap.to(el, {
@@ -1449,7 +1420,7 @@
     });
 
     // ==========================================
-    // 8. HERO STAT COUNTER ANIMATION
+    // 9. HERO STAT COUNTER ANIMATION
     // ==========================================
     document.querySelectorAll('.hero-stat-num').forEach((el) => {
       const target = parseInt(el.textContent, 10);
@@ -1464,7 +1435,7 @@
     });
 
     // ==========================================
-    // 9. CUSTOM CURSOR
+    // 10. CUSTOM CURSOR
     // ==========================================
     (function initCursor() {
       if (window.matchMedia('(max-width: 768px)').matches) return;
@@ -1497,7 +1468,7 @@
     })();
 
     // ==========================================
-    // 10. REFRESH ON FONTS + RESIZE
+    // 11. REFRESH ON FONTS + RESIZE
     // ==========================================
     document.fonts.ready.then(() => ScrollTrigger.refresh());
 
