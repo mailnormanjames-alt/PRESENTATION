@@ -1,5 +1,19 @@
 # Changelog
 
+## Deployment
+- **GitHub:** https://github.com/mailnormanjames-alt/PRESENTATION
+- **Vercel:** https://presentation-eight-opal.vercel.app/
+- **Root:** `index.html` (Master Collection — 60 cards)
+- **Hair Masters images:** `images/hair/` (10 hero images)
+- **Cafe Masters images:** `images/cafe/` (10 cover images)
+- **Look-Book images:** `images/lookbook/` (7 hero images + 2 CSS gradients + 1 SVG)
+
+## v1.9 — July 1, 2026
+**File:** `index.html`
+- Renamed `master-index.html` to `index.html` (single file deployment); deleted HAIR-MASTERS folder.
+- Added Look-Book Masters: 10 projects with live Vercel links, 7 hero images downloaded locally, 2 CSS gradient placeholders (Embassy, Observatory), 1 SVG placeholder (Auction).
+- Downloaded all 10 Hair Masters hero images locally from live Vercel deployments; updated img src to local paths.
+
 ## v1.8 — July 1, 2026
 **File:** `PRESENTATION/master-index.html`
 - Updated all 10 Hair Masters card links from relative paths (`../THE-*`) to live Vercel deployment URLs (`https://hair-masters-nine.vercel.app/THE-*/`).
