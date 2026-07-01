@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.7 — July 1, 2026
+**Files:** All
+- Pushed to GitHub: https://github.com/mailnormanjames-alt/PRESENTATION.git; added .gitignore blocking ZIP files, OS files, and node_modules.
+
 ## v1.6 — July 1, 2026
 **File:** `PRESENTATION/HOVER-EFFECTS-REFERENCE.txt`
 - Created hover effects reference guide documenting 20+ reusable CSS hover effects for cards, images, text, and overlays; includes 5 ready-to-use combined card styles with full code snippets and project notes.
